@@ -21,7 +21,13 @@ function nowServing(currentLine){
   var len = currentLine.length;
   if (len === 0) {return "There is nobody waiting to be served!"}
   else 
+<<<<<<< HEAD
 //  var firstPerson = currentLine.shift();
 //  var announcement = `Currently serving ${firstPerson}.`;
   return `Currently serving ${currentLine.shift()}.`;
+=======
+  var firstPerson = currentLine.shift();
+  var announcement = `Currently serving ${firstPerson}`;
+  return announcement;
+>>>>>>> c0131fe5de991de7f0ef607e11bcb8efe4b3e402
 }
